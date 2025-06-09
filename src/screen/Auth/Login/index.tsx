@@ -66,7 +66,7 @@ export default function LoginPage() {
           keyboardVerticalOffset={Platform.select({android: 20, ios: 90})}
           behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
           <View style={[styles.titleContainer]}>
-            <Text style={styles.title}>Раді тебе вітати!</Text>
+            <Text style={styles.title} >Раді тебе вітати!</Text>
             <Text style={styles.welcomeText}>
               Кожен пухнастик заслуговує на дбайливих господарів.Ми допоможемо
               тобі знайти друга.
