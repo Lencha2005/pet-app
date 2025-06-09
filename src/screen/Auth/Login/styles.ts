@@ -43,16 +43,15 @@ export default StyleSheet.create({
   titleContainer: {
     gap: 4,
   },
-
   inputContainer: {
     borderWidth: 1,
     borderRadius: 25,
     marginVertical: 4,
     paddingHorizontal: 24,
     paddingVertical: Platform.select({
-      android: 8,
+      android: 12,
       ios: 14,
-      default: 8,
+      default: 12,
     }),
     flexDirection: 'row',
     justifyContent: 'space-between',
